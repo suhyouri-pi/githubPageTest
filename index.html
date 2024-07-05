@@ -4,20 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gyro Sensor with Matter.js</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background-color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
+    <title>Webzine</title>
 </head>
 
 <body>
-    <canvas id="world"></canvas>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
-    <script src="script.js"></script>
+    <div class="title-box">Webzine</div>
+    <div class="container">
+        <div class="left-panel">
+            <ul>
+                <li class="item" data-page="page1.html">페이지 1</li>
+                <li class="item" data-page="page2.html">페이지 2</li>
+                <li class="item" data-page="page3.html">페이지 3</li>
+            </ul>
+        </div>
+        <div class="right-panel">
+            <div id="content">
+                기본 내용
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
